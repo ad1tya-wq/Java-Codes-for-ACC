@@ -26,5 +26,6 @@ public class span {
         calc(arr, n, span);
 
         for(int i = 0; i < n; i++) System.out.print(span[i] + " ");
+        sc.close();
     }
 }

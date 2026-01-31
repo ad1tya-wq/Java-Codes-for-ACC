@@ -92,5 +92,6 @@ public class pqll {
         peek();
         pop();
         peek();
+        sc.close();
     }
 }

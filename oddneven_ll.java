@@ -100,6 +100,7 @@ public class oddneven_ll
             head = sort(head);
             System.out.println("Sorted");
             display(head);
+            sc.close();
         }
     }
 }

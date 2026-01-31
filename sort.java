@@ -35,7 +35,7 @@ public class sort {
         list.add(min);
     }
 
-    static void sort(Queue<Integer> list)
+    static void sortq(Queue<Integer> list)
     {
         int s = list.size();
         for(int i = 0; i < s; i++)
@@ -56,12 +56,13 @@ public class sort {
             list.add(x);
         }
 
-        sort(list);
+        sortq(list);
 
         while(!list.isEmpty())
         {
             System.out.print(list.peek() + " ");
             list.poll();
         }
+        sc.close();
     }
 }

@@ -86,7 +86,7 @@ class loop {
         
         if(loopdet(head)) System.out.print("\nLoop detected.");
         else System.out.print("\nNo Loop");
-        
+        sc.close();
     }
 }
     

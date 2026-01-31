@@ -83,7 +83,7 @@ public class hanoi
         aux = ob.create(disc);
 
         char s = 'S', d = 'D', a = 'A';
-        if(d%2 == 0)
+        if(disc%2 == 0)
         {
             char t = a;
             a = d;

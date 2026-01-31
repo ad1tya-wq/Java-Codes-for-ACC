@@ -80,6 +80,6 @@ public class minstack
         s.pop();
         s.pop();
         s.getMin();
-
+        sc.close();
     }
 }

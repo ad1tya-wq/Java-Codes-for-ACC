@@ -81,5 +81,6 @@ class bitronic {
         
         head = sort(head);
         display(head);
+        sc.close();
     }
 }

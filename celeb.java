@@ -52,5 +52,6 @@ public class celeb
         int res = celmat(matrix);
         if(res == -1) System.out.println("No celebs");
         else System.out.println("Celeb is person number " + (res+1));
+        sc.close();
     }
 }

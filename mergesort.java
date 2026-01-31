@@ -96,5 +96,6 @@ public class mergesort
         Node dummy = mergell(h1, h2);
         System.out.println("Merged LLs: ");
         display(dummy);
+        sc.close();
     }
 }
